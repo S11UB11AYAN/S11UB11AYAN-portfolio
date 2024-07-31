@@ -292,6 +292,7 @@ h1 {
 			animation: marquee 40s linear infinite;
 			display: flex;
 			gap: 10px;
+			mix-blend-mode: multiply;
 		}
 	}
 }
@@ -556,4 +557,8 @@ h3 {
 			}
 		}
 	}
+}
+
+.neovim {
+	mix-blend-mode: multiply;
 }
